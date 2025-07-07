@@ -424,6 +424,11 @@ section {
 .hero .hero-img {
   text-align: right;
 }
+
+.list-unstyled {
+  text-align: start;
+}
+
 @media (min-width: 1024px) {
   .hero {
     background-attachment: fixed;
