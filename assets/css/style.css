@@ -46,7 +46,6 @@ section {
 
 .section-header {
   text-align: center;
-  padding-bottom: 40px;
 }
 .section-header h2 {
   font-size: 13px;
@@ -2094,7 +2093,6 @@ section {
   transform: translateY(-2px) scale(1.04);
 }
 #para-quem img {
-  box-shadow: 0 8px 32px 0 rgba(60, 72, 88, 0.13);
   border-radius: 18px;
   margin-top: 1.5rem;
   margin-bottom: 1.5rem;
@@ -2103,7 +2101,6 @@ section {
   transition: box-shadow 0.3s, transform 0.2s;
 }
 #para-quem img:hover {
-  box-shadow: 0 16px 48px 0 rgba(79, 140, 255, 0.18);
   transform: scale(1.03);
 }
 @media (max-width: 991.98px) {
