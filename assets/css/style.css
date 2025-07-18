@@ -8,6 +8,9 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+/* .pb-0 {
+  padding-bottom: 0 !important;
+} */
 
 :root {
   scroll-behavior: smooth;
@@ -426,6 +429,29 @@ section {
 
 .list-unstyled {
   text-align: start;
+}
+
+/* Hero section list item image index style */
+#hero ul.list-unstyled li {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 0.7em;
+}
+#hero ul.list-unstyled li img {
+  flex-shrink: 0;
+  height: 2.7em;
+  width: auto;
+  margin: 0;
+  display: block;
+}
+#hero ul.list-unstyled li {
+  word-break: normal;
+  white-space: normal;
+}
+#hero ul.list-unstyled li span {
+  display: inline-block;
+  vertical-align: middle;
 }
 
 @media (min-width: 1024px) {
@@ -2145,3 +2171,4 @@ img.img-fluid {
   box-shadow: 0 12px 32px 0 rgba(79, 140, 255, 0.18), 0 2px 8px 0 rgba(0,0,0,0.10);
   z-index: 2;
 }
+
